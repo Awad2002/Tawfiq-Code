@@ -44,46 +44,41 @@
 @font-face {
     font-family: "Montserrat-Arabic";
     src:url("../fonts/ArbFONTS-Montserrat-Arabic-Thin.ttf");
-    font-weight:100;
-}
-@font-face {
-    font-family: "Montserrat-Arabic";
-    src:url("../fonts/ArbFONTS-Montserrat-Arabic-ExtraLight.ttf");
     font-weight:200;
 }
 @font-face {
     font-family: "Montserrat-Arabic";
-    src:url("../fonts/ArbFONTS-Montserrat-Arabic-Light.ttf");
+    src:url("../fonts/ArbFONTS-Montserrat-Arabic-ExtraLight.ttf");
     font-weight:300;
 }
 @font-face {
     font-family: "Montserrat-Arabic";
-    src:url("../fonts/ArbFONTS-Montserrat-Arabic-Regular.ttf");
+    src:url("../fonts/ArbFONTS-Montserrat-Arabic-Light.ttf");
     font-weight:400;
 }
 @font-face {
-    font-family: "DinNext";
-    src:url("../fonts/ArbFONTS-Montserrat-Arabic-Medium.ttf");
+    font-family: "Montserrat-Arabic";
+    src:url("../fonts/ArbFONTS-Montserrat-Arabic-Regular.ttf");
     font-weight:500;
 }
 @font-face {
     font-family: "DinNext";
-    src:url("../fonts/ArbFONTS-Montserrat-Arabic-SemiBold.ttf");
+    src:url("../fonts/ArbFONTS-Montserrat-Arabic-Medium.ttf");
     font-weight:600;
 }
 @font-face {
     font-family: "DinNext";
-    src:url("../fonts/ArbFONTS-Montserrat-Arabic-Bold.ttf");
+    src:url("../fonts/ArbFONTS-Montserrat-Arabic-SemiBold.ttf");
     font-weight:700;
 }
 @font-face {
     font-family: "DinNext";
-    src:url("../fonts/ArbFONTS-Montserrat-Arabic-ExtraBold.ttf");
+    src:url("../fonts/ArbFONTS-Montserrat-Arabic-Bold.ttf");
     font-weight:800;
 }
 @font-face {
     font-family: "DinNext";
-    src:url("../fonts/ArbFONTS-Montserrat-Arabic-Black.ttf");
+    src:url("../fonts/ArbFONTS-Montserrat-Arabic-ExtraBold.ttf");
     font-weight:900;
 }
 
@@ -95,14 +90,40 @@
 
 body {
     direction: rtl;
+    height: 5000px;
 }
-
-nav.my-navbar .nav-link {
-    font-weight: 300;
+/* Start Code */
+/* Start Navbar */
+nav.my-navbar {
+    box-shadow: #00000010 0px 6px 20px;
 }
 nav.my-navbar .nav-link:hover {
     color: var(--secondry-color) !important;
 }
+
+nav.my-navbar .Nav-Cta button {
+    background: none;
+    outline: none;
+    border: none;
+    padding: 0;
+
+}
+/* End Navbar */
+
+/* Start Hero */
+.hero .hero-text h1,p {
+    line-height: 145%;
+}
+
+.hero .hero-text {
+    margin-top: 135px;
+}
+
+.hero .hero-text .my-btn {
+    padding: 16px 29px;
+}
+/* End Hero */
+
 /* End Code */
 
 
@@ -120,8 +141,8 @@ nav.my-navbar .nav-link:hover {
 }
 
 .my-btn {
-    padding: 11px 28px;
+    padding: 12px 26px;
     border-radius: 6px;
-    font-weight: 300;
+    font-weight: 500;
     text-decoration: none;
 }

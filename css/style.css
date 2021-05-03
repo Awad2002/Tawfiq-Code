@@ -1,0 +1,127 @@
+:root {
+    --primary-color:#4C2A80;
+    --secondry-color:#FFCE00;
+}
+
+/* Din Next Font */
+@font-face {
+    font-family: "DinNext";
+    src:url("../fonts/DINNEXTARABICREGULAR.otf");
+    font-weight:400;
+}
+@font-face {
+    font-family: "DinNext";
+    src:url("../fonts/DINNEXTARABICMEDIUM.otf");
+    font-weight:500;
+}
+@font-face {
+    font-family: "DinNext";
+    src:url("../fonts/DINNEXTARABICBOLD.otf");
+    font-weight:700;
+}
+@font-face {
+    font-family: "DinNext";
+    src:url("../fonts/DINNEXTARABICBLACK.otf");
+    font-weight:800;
+}
+@font-face {
+    font-family: "DinNext";
+    src:url("../fonts/DINNEXTARABICLIGHT.otf");
+    font-weight:300;
+}
+@font-face {
+    font-family: "DinNext";
+    src:url("../fonts/DINNEXTARABICULTRALIGHT.otf");
+    font-weight:200;
+}
+@font-face {
+    font-family: "DinNext";
+    src:url("../fonts/DINNEXTARABICHEAVY.otf");
+    font-weight:900;
+}
+
+/* Montserrat-Arabic Font */
+@font-face {
+    font-family: "Montserrat-Arabic";
+    src:url("../fonts/ArbFONTS-Montserrat-Arabic-Thin.ttf");
+    font-weight:100;
+}
+@font-face {
+    font-family: "Montserrat-Arabic";
+    src:url("../fonts/ArbFONTS-Montserrat-Arabic-ExtraLight.ttf");
+    font-weight:200;
+}
+@font-face {
+    font-family: "Montserrat-Arabic";
+    src:url("../fonts/ArbFONTS-Montserrat-Arabic-Light.ttf");
+    font-weight:300;
+}
+@font-face {
+    font-family: "Montserrat-Arabic";
+    src:url("../fonts/ArbFONTS-Montserrat-Arabic-Regular.ttf");
+    font-weight:400;
+}
+@font-face {
+    font-family: "DinNext";
+    src:url("../fonts/ArbFONTS-Montserrat-Arabic-Medium.ttf");
+    font-weight:500;
+}
+@font-face {
+    font-family: "DinNext";
+    src:url("../fonts/ArbFONTS-Montserrat-Arabic-SemiBold.ttf");
+    font-weight:600;
+}
+@font-face {
+    font-family: "DinNext";
+    src:url("../fonts/ArbFONTS-Montserrat-Arabic-Bold.ttf");
+    font-weight:700;
+}
+@font-face {
+    font-family: "DinNext";
+    src:url("../fonts/ArbFONTS-Montserrat-Arabic-ExtraBold.ttf");
+    font-weight:800;
+}
+@font-face {
+    font-family: "DinNext";
+    src:url("../fonts/ArbFONTS-Montserrat-Arabic-Black.ttf");
+    font-weight:900;
+}
+
+
+/* Start Code */
+* {
+    font-family: Montserrat-Arabic;
+}
+
+body {
+    direction: rtl;
+}
+
+nav.my-navbar .nav-link {
+    font-weight: 300;
+}
+nav.my-navbar .nav-link:hover {
+    color: var(--secondry-color) !important;
+}
+/* End Code */
+
+
+
+
+
+
+/* Classes */
+.bg-main {
+    background-color: var(--primary-color);
+}
+
+.bg-secondry {
+    background-color: var(--secondry-color);
+}
+
+.my-btn {
+    padding: 11px 28px;
+    border-radius: 6px;
+    font-weight: 300;
+    text-decoration: none;
+}

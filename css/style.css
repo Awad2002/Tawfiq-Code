@@ -90,7 +90,6 @@
 
 body {
     direction: rtl;
-    height: 5000px;
 }
 /* Start Code */
 /* Start Navbar */
@@ -131,9 +130,31 @@ nav.my-navbar .Nav-Cta button {
 /* End How it works */
 
 /* Start Features */
-
 /* End Features */
 
+/* Start Categories */
+.categorie-box {transition: 0.5s;;}
+.categorie-box:hover {box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;}
+/* End Categories */
+
+/* Start CTA */
+.cta {
+    background-color: #4c2a8041;
+}
+/* End CTA */
+
+/* Start Footer */
+footer a {
+    transition: 0.5s;
+}
+footer a:hover {
+    color: var(--secondry-color) !important;
+}
+
+.social-media {
+    float: left;
+}
+/* End Footer */
 /* End Code */
 
 
@@ -142,6 +163,9 @@ nav.my-navbar .Nav-Cta button {
 
 
 /* Classes */
+a {
+    text-decoration: none;
+}
 .bg-main {
     background-color: var(--primary-color);
 }
@@ -155,6 +179,15 @@ nav.my-navbar .Nav-Cta button {
     border-radius: 6px;
     font-weight: 500;
     text-decoration: none;
+    color: #fff;
+}
+
+.font-light {
+    font-weight: 300;
+}
+
+.my-btn:hover {
+    color: #fff;
 }
 
 .bg-semi-white {
